@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    background-color: #1c1c1c !important;
+   color: #e5e5e5;
+}
+
+.liColor a{
+    
+    color: #e5e5e5;
+}
+
+.colorBlanco {
+    background-color: #e5e5e5;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+.cosito {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    padding-right: 14px;
+    color: black;
+    text-decoration: black;
+    background-color: #e5e5e5;
+}
+
+.busqueda{
+    width: 0px;
+    transition: all .3s;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 20px;
+    visibility: hidden;
+}
+
+.busqueda:focus{
+    width: 100px;
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+
+.busq:hover .busqueda{
+    width: 100px;
+    visibility: visible;
+}
